@@ -1,2 +1,5 @@
+# Version 0.0.2
++ Bug fix: C extension wasn't set to compile on install. Oops.
+
 # Version 0.0.1
 + Alpha version released.

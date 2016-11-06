@@ -13,7 +13,7 @@ ceqn = Extension('ceqn', sources=['rouleur/ceqn.c'])
 
 setup(
     name='rouleur',
-    version='0.0.1',
+    version='0.0.2',
     description='Cycling performance modelling with Python',
     long_description=long_description,
     url='https://github.com/jmackie4/rouleur',
