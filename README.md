@@ -26,7 +26,7 @@ That's all there is to it.
 
 The API consists almost exclusively of the `CyclingParams` class, which holds all the parameters required for modelling a cyclist. The class constructor combines a number of sensible defaults with any (keyword) arguments passed. Details of recognised keyword arguments---i.e. model parameters---can be found in the class docstring (`help(CyclingParams)`).
 
-Instances then have a number of solver methods accessible via `parameters.solve_for.*` synatx. 
+Instances then have a number of solver methods accessible via `parameters.solve_for.*`. 
 
 # References
 
