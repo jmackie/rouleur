@@ -29,7 +29,7 @@ References
 
 """
 from collections.abc import Mapping
-import copy
+from copy import copy
 from itertools import cycle
 from warnings import warn
 
@@ -232,7 +232,7 @@ class SlottedDict(Mapping):
     def _copy_filling(self):
         """Used within copy methods."""
         filling = dict.fromkeys(self, self.default_fill)
-        filling.update({key: copy.copy(value) for key, value in self.items()
+        filling.update({key: copy(value) for key, value in self.items()
                         if value is not self.default_fill})
         return filling
 
