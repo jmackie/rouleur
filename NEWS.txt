@@ -1,3 +1,6 @@
+# Version 0.0.3
++ Bug fix: C extension still wasn't compiling, try again.
+
 # Version 0.0.2
 + Bug fix: C extension wasn't set to compile on install. Oops.
 
