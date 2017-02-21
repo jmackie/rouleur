@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 # Define compiled extensions
-ceqn = Extension('ceqn', sources=['rouleur/ceqn.c'])
+ceqn = Extension('rouleur.ceqn', sources=['rouleur/ceqn.c'])
 
 setup(
     name='rouleur',
